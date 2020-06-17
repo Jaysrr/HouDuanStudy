@@ -32,7 +32,7 @@ public class Book {
 
     private double depth;
 
-    private int version;
+    private double version;
 
     private List<String> author;
 
@@ -72,11 +72,11 @@ public class Book {
         this.depth = depth;
     }
 
-    public int getVersion() {
+    public double getVersion() {
         return version;
     }
 
-    public void setVersion(int version) {
+    public void setVersion(double version) {
         this.version = version;
     }
 
